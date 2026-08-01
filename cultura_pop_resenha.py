@@ -103,8 +103,6 @@ TEMAS = [
     "o anime 'Fly: O Pequeno Guerreiro' (Dragon Quest)",
     "o anime 'Hamtaro'",
     "o mangá '20th Century Boys' de Naoki Urasawa",
-
-    # --- GAMES & CONSOLES (60 Temas) ---
     "o jogo RPG 'Chrono Trigger'",
     "o jogo 'Castlevania: Symphony of the Night'",
     "a guerra de consoles dos anos 90 (Super Nintendo vs Mega Drive)",
@@ -165,8 +163,6 @@ TEMAS = [
     "o jogo indie 'Stardew Valley'",
     "o jogo indie 'Celeste'",
     "o jogo 'Persona 5'",
-
-    # --- CINEMA & SÉRIES (60 Temas) ---
     "o filme 'Jurassic Park' (1993)",
     "a trilogia de filmes 'O Senhor dos Anéis'",
     "o filme 'De Volta para o Futuro'",
@@ -227,8 +223,6 @@ TEMAS = [
     "o filme 'V de Vingança' no cinema",
     "a franquia 'O Senhor dos Anéis' no cinema vs livros",
     "o filme brasileiro 'Auto da Compadecida'",
-
-    # --- MÚSICA & BANDAS (60 Temas) ---
     "o álbum 'Dark Side of the Moon' do Pink Floyd",
     "a trajetória da banda de metal 'Iron Maiden'",
     "o movimento Grunge e a banda 'Nirvana'",
@@ -289,8 +283,6 @@ TEMAS = [
     "a banda 'Arctic Monkeys'",
     "a carreira solo de 'Eric Clapton'",
     "a trajetória da banda 'The Who'",
-
-    # --- CARTOONS & QUADRINHOS (60 Temas) ---
     "o desenho 'Coragem, o Cão Covarde'",
     "a animação 'Avatar: A Lenda de Aang'",
     "o desenho 'O Laboratório de Dexter'",

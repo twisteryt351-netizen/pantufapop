@@ -29,14 +29,14 @@ for nome, valor in [
         raise ValueError(f"Faltou configurar a variavel/segredo: {nome}")
 
 groq_client = Groq(api_key=GROQ_API_KEY)
-MODELO_IA = "llama-3.3-70b-versatile"
+MODELO_IA = "openai/gpt-oss-120b"
 
 # --- GERACAO DE IMAGENS COM IA (Pollinations.ai) ---
 # Opcional: se nao configurado, ou se qualquer etapa falhar, o script cai
 # automaticamente no metodo antigo (busca de imagem no Openverse).
 POLLINATIONS_TOKEN = os.environ.get("POLLINATIONS_TOKEN")  # opcional: remove marca dagua e aumenta limite
-# Sem token: 1 requisicao a cada 15s. Com token gratuito (auth.pollinations.ai): a cada 5s.
-INTERVALO_POLLINATIONS = 6 if POLLINATIONS_TOKEN else 16
+# Sem token: 1 requisicao a cada 16s. Com token gratuito (auth.pollinations.ai): a cada 8s.
+INTERVALO_POLLINATIONS = 8 if POLLINATIONS_TOKEN else 17
 IMGBB_API_KEY = os.environ.get("IMGBB_API_KEY")
 QTD_MIN_IMAGENS = 3
 QTD_MAX_IMAGENS = 5
@@ -79,7 +79,7 @@ FONTES = {
 
 # --- Tags/labels do Blogger por categoria (a IA escolhe a categoria certa) ---
 CATEGORIAS_TAGS = {
-    "anime": ["anime", "cultura pop", "japao"],
+    "anime": ["anime", "Tokusatsus", "Ova", "cultura pop", "japao"],
     "manga": ["manga", "cultura pop", "japao"],
     "cartoon": ["cartoon", "animacao", "cultura pop"],
     "quadrinho": ["quadrinhos", "hq", "cultura pop"],

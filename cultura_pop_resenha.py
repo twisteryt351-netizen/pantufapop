@@ -34,8 +34,8 @@ MODELO_IA = "openai/gpt-oss-120b"
 # Opcional: se nao configurado, ou se qualquer etapa falhar, o script cai
 # automaticamente no metodo antigo (busca de imagem no Openverse).
 POLLINATIONS_TOKEN = os.environ.get("POLLINATIONS_TOKEN")  # opcional: remove marca dagua e aumenta limite
-# Sem token: 1 requisicao a cada 15s. Com token gratuito (auth.pollinations.ai): a cada 5s.
-INTERVALO_POLLINATIONS = 6 if POLLINATIONS_TOKEN else 16
+# Sem token: 1 requisicao a cada 16s. Com token gratuito (auth.pollinations.ai): a cada 8s.
+INTERVALO_POLLINATIONS = 8 if POLLINATIONS_TOKEN else 18
 IMGBB_API_KEY = os.environ.get("IMGBB_API_KEY")
 QTD_MIN_IMAGENS = 5
 QTD_MAX_IMAGENS = 10
